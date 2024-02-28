@@ -1,0 +1,16 @@
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: black;
+    text-decoration-line: none;
+    flex-direction: row;
+}
+#navbarNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
