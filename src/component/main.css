@@ -1,0 +1,11 @@
+.main {
+    background-color: #f0f0f0; /* Example background color */
+    color: #111010;
+    padding: 50rem 50rem;
+    align-items: center;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  

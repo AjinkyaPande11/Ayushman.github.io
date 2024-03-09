@@ -1,9 +1,15 @@
-import Navbarmenu from './component/Navbarmenu';
+import Navbar from './component/Navbarmenu';
+import Main from './component/main';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <Navbarmenu/>
+    <>
+    <div>
+    <Navbar/>
+    <Main/>
+    </div>
+    </>
   );
 }
 
