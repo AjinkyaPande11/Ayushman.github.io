@@ -40,7 +40,8 @@ export default function Mains(){
               quantity: componentQuantity
             });
             fetchData();
-          } catch (error) {
+          } 
+          catch (error) {
             console.error('Error subtracting component:', error);
           }
         };
@@ -49,13 +50,14 @@ export default function Mains(){
           try {
             const response = await axios.get('/api/inventory/status');
             setInventoryStatus(response.data.totalQuantity);
-          } catch (error) {
+          }
+           catch (error) {
             console.error('Error fetching inventory status:', error);
           }
         };
     
     return(
-        <>
+       
         <div className='main'>
             
           
@@ -96,8 +98,7 @@ export default function Mains(){
       </div>
     </div>
            
-      
-        </>
+  
         
     )
 }

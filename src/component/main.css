@@ -1,17 +1,13 @@
 .main {
     background-image: radial-gradient(rgb(227, 234, 236),
-    #dfd9d9dc), url(
-  './assets/background.jpg');   
+    #dfd9d9dc), url('./assets/background.jpg');   
     color: #111010;
-    align-items: center;
-   background-position: center;
-   background-size: 100%;
-   background-size: contain;
-   background-repeat: no-repeat;
-  background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 195vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 60px;
+  justify-content: start;
+  align-items: center;
+
 }
   
